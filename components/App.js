@@ -60,3 +60,4 @@ $('#social_nav').click(function(){
     $('#book').hide('');
     $('#social').show('');
 });
+

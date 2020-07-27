@@ -1,8 +1,16 @@
+.navbar{
+    background: #212529;
+    color: #FFFFFF;
+    font-family: 'Lexend Zetta', sans-serif;
+}
 .container-fluid{
     width: 100vw;
     height: 100vh;
-    background-color: #212529;
     padding-top: 150px;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .row{
     width: 100%;
@@ -11,7 +19,13 @@
 div.card{
     border: none;
     background-color: #212529;
-    color: #FFFFFF;
+    color: #ffffff;
+    font-weight: bold;
+}
+.text_card{
+    background: linear-gradient(rgba(0.1, 0.2, 0, 0.3), rgba(0.1, 0.2, 0, 0.3));
+}
+.text-center{
     font-weight: bold;
 }
 .img_card{
@@ -24,9 +38,36 @@ div.card{
 }
 .card-title{
     font-weight: bolder;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 .img-frame{
     background: #FFFFFF;
     height: 100%;
     width: 100%;
+}
+p{
+    font-family: 'oswald';
+}
+.col-10{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+iframe{
+    width: 80vw;
+    height: 80%;
+}
+.portf_text a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.portf_text a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.portfText{
+    color: #FFFFFF;
+}
+#portfolio{
+    height: 100vh;
 }
