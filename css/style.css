@@ -39,6 +39,7 @@ div.card{
 .class-body{
     height: 100%;
     width: 100%;
+    padding: 15px;
 }
 .card-title{
     font-weight: bolder;
@@ -82,7 +83,7 @@ p{
         flex-direction: column;
     }
     .img-frame{
-        margin-left: 30px;
+        margin-left: 2px
     }
     div.col-8.port_div{
         max-width: 78.666667%;
@@ -99,5 +100,8 @@ p{
     }
     div.col-8.align-self-start{
         max-width: 93.666667%;
+    }
+    div .class-body .text-center{
+        padding-top: 10px;
     }
 }
