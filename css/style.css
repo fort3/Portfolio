@@ -51,6 +51,10 @@ p{
 .col-10{
     color: #FFFFFF;
     font-weight: bold;
+    height: 40%;
+}
+.col-4{
+    text-align: center;
 }
 iframe{
     width: 80vw;
