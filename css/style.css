@@ -92,7 +92,27 @@ div .col-8 .port_div{
 .portfText{
     color: hsl(0, 0%, 100%);
 }
-
+.col-8 .social_card{
+    background: linear-gradient(rgba(0.1, 0.2, 0, 0.3), rgba(0.1, 0.2, 0, 0.3));
+    height: 60vh;
+    width: 86vw;
+}
+.social_center .card-title{
+    font-size: 40px;
+} 
+.social_center p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.social_icons a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.social_icons a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 @media(max-width: 768px){
     #index .row, #porfolio .row{
         display: flex;
@@ -177,7 +197,13 @@ div .col-8 .port_div{
         height: 60vh;
         width: 86vw;
     }
-    .social_center .icons{
-
+    .social_icons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 auto;
+    }
+    .social_icons a{
+        padding-left: 20px;
     }
 }
