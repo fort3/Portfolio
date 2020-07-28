@@ -113,6 +113,9 @@ div .col-8 .port_div{
     text-decoration: none;
     color: #FFFFFF;
 }
+.social_icons img{
+    color: #FFFFFF;
+}
 @media(max-width: 768px){
     #index .row, #porfolio .row{
         display: flex;
@@ -143,12 +146,12 @@ div .col-8 .port_div{
         background: linear-gradient(rgba(0.1, 0.2, 0, 0.3), rgba(0.1, 0.2, 0, 0.3)); 
     }
     .port_center .card-title{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
         font-weight: bolder;
     }
     .port_center p{
-        font-size: 8px;
+        font-size: 10px;
         font-family: 'oswald';
         text-align: center;
         font-weight: bolder;
