@@ -98,7 +98,7 @@ div .col-8 .port_div{
     font-size: 40px;
 } 
 .social_center p{
-    font-size: 15px;
+    font-size: 2.0em;
     font-weight: bolder;
 }
 .social_icons a{
@@ -191,7 +191,7 @@ div .col-8 .port_div{
         flex-direction: column;
     }
     #index_nav h2{
-        font-size: 20px;
+        font-size: 1.2em;
     }
     .img-frame{
         margin-left: 27%;
@@ -203,10 +203,10 @@ div .col-8 .port_div{
         height: 40vh;
     } */
     .text-center .card-title{
-        font-size: 20px;
+        font-size: 1.2em;
     }
     .text-center p{
-        font-size: 12px;
+        font-size: 0.7em;
     }
     .text-center{
         padding-top: 10px;
@@ -218,14 +218,14 @@ div .col-8 .port_div{
         background: linear-gradient(rgba(0.1, 0.2, 0, 0.3), rgba(0.1, 0.2, 0, 0.3)); 
     }
     .port_center .card-title{
-        font-size: 20px;
+        font-size: 1.2em;
         text-align: center;
         font-weight: bolder;
     }
     .port_center p{
-        font-size: 10px;
-        font-family: 'oswald';
+        font-size: 0.7em;
         text-align: center;
+        line-height: 1.3em;
         font-weight: bolder;
     }
     .port_d{
@@ -240,9 +240,9 @@ div .col-8 .port_div{
         display:none;
     }
     .col a p{
-        font-size: 10px;
+        font-size: 0.8em;
+        line-height: 1.0em;
         font-weight: bolder;
-        font-family: 'oswald';
         /* text-decoration: none; */
         color: #FFFFFF;
     }
@@ -256,7 +256,8 @@ div .col-8 .port_div{
         font-size: 18px;
     }
     .contact_center p{
-        font-size: 8px;
+        font-size: 0.79em;
+        line-height: 1.9em;
         font-weight: bolder;
     }
     .col-8 .contact_card{
@@ -280,6 +281,9 @@ div .col-8 .port_div{
     }
     .social_icons a{
         padding-left: 20px;
+    }
+    .social_center p{
+        font-size: 0.8em;
     }
     #book{
         left: 41%;
