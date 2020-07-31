@@ -88,7 +88,7 @@ $('#close').click(function(){
 ////////////////
 
 $(function(){
-    $("send_mail").click(function(){
+    $("send_email").click(function(){
 
         function isEmptyString(str) {
             return !str || str.trim().length === 0;
