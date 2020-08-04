@@ -190,6 +190,9 @@ div .col-8 .port_div{
         display: flex;
         flex-direction: column;
     }
+    #portfolio .row{
+        height: 88%;
+    }
     #index_nav h2{
         font-size: 1.2em;
     }
@@ -232,6 +235,7 @@ div .col-8 .port_div{
         display: flex;
         flex-direction: column;
         margin-left: 18px;
+        height: 65%;
     }
     .port_d .col{
         background: linear-gradient(rgba(0.1, 0.2, 0, 0.3), rgba(0.1, 0.2, 0, 0.3));
